@@ -207,7 +207,7 @@ const PhotoEditor = () => {
         </nav>
         <div id="w-full bg-white px-4">
             <div className="m-auto text-center">
-                <div className="pt-24 pb-6 px-20">
+                <div className="pt-24 pb-6 px-0 md:px-20">
                     <section className='block'>
                         <canvas id="editor" className='shadow-lg p-4 block m-auto w-fit h-fit border-2 border-dashed border-black rounded-sm bg-white'></canvas>
                         {/* <img 
@@ -218,7 +218,7 @@ const PhotoEditor = () => {
                     </section>
                 </div>
 
-                <section id="toolbar" className='grid grid-cols-2 gap-4 w-[30%] m-auto'>
+                <section id="toolbar" className='grid grid-cols-2 gap-4 w-[100%] md:w-[30%] m-auto px-4 md:px-0'>
                     <button id="upload" className='m-auto' title="Upload">
                         <img src="https://cdn4.iconfinder.com/data/icons/arrows-246/24/upload_1-512.png" 
                           alt="upload here" 
